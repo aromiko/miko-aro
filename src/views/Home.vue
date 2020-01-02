@@ -1,12 +1,7 @@
 <template>
   <v-app class="main-app">
-    <main-bar
-      v-on:displayDrawer="isDrawerVisible = !isDrawerVisible"
-      v-bind:isDrawerDisplayed="isDrawerVisible"
-    ></main-bar>
-    <navigation-drawer
-      v-bind:isDrawerDisplayed="isDrawerVisible"
-    ></navigation-drawer>
+    <main-bar></main-bar>
+    <navigation-drawer></navigation-drawer>
     <v-content class="pa-0">
       <v-container
         fluid
@@ -30,10 +25,10 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col class="d-flex justify-center col-md-6" data-aos="fade-down">
             <v-img :src="require('../assets/images/venice.jpg')" />
           </v-col>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col class="d-flex justify-center col-md-6" data-aos="fade-up">
             <v-img :src="require('../assets/images/daraitan.jpeg')" />
           </v-col>
         </v-row>
@@ -55,11 +50,6 @@ export default {
   components: {
     MainBar,
     NavigationDrawer
-  },
-  data() {
-    return {
-      isDrawerVisible: false
-    };
   }
 };
 </script>

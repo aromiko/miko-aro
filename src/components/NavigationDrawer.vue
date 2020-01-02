@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer
     app
-    v-model="isDrawerDisplayed"
+    v-model="drawerDisplayed"
     temporary
     width="100vw"
     right
@@ -90,7 +90,12 @@
 </style>
 
 <script>
+import store from "../store";
 export default {
-  props: { isDrawerDisplayed: { type: Boolean } }
+  computed: {
+    drawerDisplayed() {
+      return store.state.drawerDisplayed;
+    }
+  }
 };
 </script>
