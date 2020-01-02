@@ -1,0 +1,41 @@
+html {
+  background-color: #000 !important;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  overscroll-behavior: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.main-app {
+  background: transparent !important;
+}
+
+.v-toolbar {
+  pointer-events: none;
+  transition: color 0.5s !important;
+  .v-toolbar__content,
+  .v-toolbar__extension {
+    padding: 0;
+  }
+}
+
+.v-navigation-drawer {
+  pointer-events: none;
+  transition-duration: 0.5s;
+}
+
+.clickable {
+  pointer-events: auto !important;
+}

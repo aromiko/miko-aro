@@ -1,0 +1,9 @@
+.header {
+  background-color: transparent !important;
+  transition: color 1s;
+  z-index: 10 !important;
+}
+
+.theme--light.v-btn.v-btn--icon {
+  color: #000 !important;
+}
