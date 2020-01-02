@@ -9,26 +9,62 @@
         v-bind:class="{ active: isDrawerVisible }"
       >
         <v-row>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/bonfire.jpg')" />
           </v-col>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/crossing2.jpg')" />
           </v-col>
         </v-row>
         <v-row>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/sunset.jpeg')" />
           </v-col>
-          <v-col class="d-flex justify-center col-md-6">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/port.jpeg')" />
           </v-col>
         </v-row>
         <v-row>
-          <v-col class="d-flex justify-center col-md-6" data-aos="fade-down">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/venice.jpg')" />
           </v-col>
-          <v-col class="d-flex justify-center col-md-6" data-aos="fade-up">
+          <v-col
+            class="d-flex justify-center col-md-6"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <v-img :src="require('../assets/images/daraitan.jpeg')" />
           </v-col>
         </v-row>
