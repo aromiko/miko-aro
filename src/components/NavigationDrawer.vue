@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer
     app
-    v-model="drawerDisplayed"
+    :value="drawerDisplayed"
     temporary
     width="100vw"
     right
@@ -23,7 +23,7 @@
             target="_blank"
           >
             <v-img
-              :src="require('../assets/facebook.svg')"
+              src="../assets/facebook.svg"
               max-height="4em"
               max-width="4em"
             />
@@ -40,7 +40,7 @@
             target="_blank"
           >
             <v-img
-              :src="require('../assets/twitter.svg')"
+              src="../assets/twitter.svg"
               max-height="4em"
               max-width="4em"
             />
@@ -57,7 +57,7 @@
             target="_blank"
           >
             <v-img
-              :src="require('../assets/instagram.svg')"
+              src="../assets/instagram.svg"
               max-height="4em"
               max-width="4em"
             />
@@ -74,7 +74,7 @@
             target="_blank"
           >
             <v-img
-              :src="require('../assets/linkedin.svg')"
+              src="../assets/linkedin.svg"
               max-height="4em"
               max-width="4em"
             />
@@ -91,6 +91,7 @@
 
 <script>
 import store from "../store";
+
 export default {
   computed: {
     drawerDisplayed() {
