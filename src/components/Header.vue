@@ -1,6 +1,6 @@
 <template>
   <v-app-bar flat app class="header px-8 pt-4" :light="drawerDisplayed">
-    <v-toolbar-title class="headline text-lowercase">
+    <v-toolbar-title class="headline">
       <span>
         <h3>miko aro</h3>
       </span>

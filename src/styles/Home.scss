@@ -2,7 +2,6 @@ html {
   background-color: #000 !important;
 }
 body {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   height: 100%;
   width: 100%;
@@ -18,8 +17,22 @@ h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
+.v-application {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.footer {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
 .main-app {
   background: transparent !important;
+}
+
+.v-card,
+.v-footer {
+  background-color: transparent !important;
 }
 
 .v-toolbar {
