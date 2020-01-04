@@ -1,6 +1,6 @@
 <template>
   <v-row
-    class="d-flex flex-lg-row flex-column-reverse mt-12 pt-8"
+    class="d-flex flex-lg-row flex-column-reverse intro"
     data-aos="fade-down"
     data-aos-offset="10"
     data-aos-duration="1000"
@@ -26,3 +26,7 @@
       </v-avatar>
     </v-col> </v-row
 ></template>
+
+<style lang="scss">
+@import "../styles/Introduction.scss";
+</style>
