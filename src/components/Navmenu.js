@@ -13,12 +13,12 @@ const Navmenu = () => {
   const navbarToggle = useSelector(state => state.navbarToggle);
   return (
     <div
-      className={`flex flex-col lg:flex-row items-center justify-between w-screen h-screen  bg-white fixed transition ease-in-out duration-500 p-20 lg:px-30 lg:py-0 ${
+      className={`flex flex-col md:flex-row items-center justify-between w-screen h-screen  bg-white fixed transition ease-in-out duration-500 p-20 lg:px-30 lg:py-0 ${
         navbarToggle === true ? "opacity-1" : "opacity-0 pointer-events-none"
       }`}
     >
       <button
-        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10"
+        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
         onClick={() => {
           openSocialMedia("https://facebook.com/miko.aro");
         }}
@@ -26,7 +26,7 @@ const Navmenu = () => {
         <img src={Facebook} alt="facebook" className="h-16 lg:h-20" />
       </button>
       <button
-        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10"
+        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
         onClick={() => {
           openSocialMedia("https://www.instagram.com/mikoaro/");
         }}
@@ -34,7 +34,7 @@ const Navmenu = () => {
         <img src={Instagram} alt="instagram" className="h-16 lg:h-20" />
       </button>
       <button
-        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10"
+        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
         onClick={() => {
           openSocialMedia("https://twitter.com/aromiko");
         }}
@@ -42,7 +42,7 @@ const Navmenu = () => {
         <img src={Twitter} alt="twitter" className="h-16 lg:h-20" />
       </button>
       <button
-        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10"
+        className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
         onClick={() => {
           openSocialMedia("https://www.linkedin.com/in/mikoaro");
         }}

@@ -15,8 +15,8 @@ const Home = () => {
           <h2 className="font-bold">Hi! I'm Miko</h2>
           <p className="pb-6">Web Developer</p>
           <p>
-            Welcome to my website! I'm a web developer from Philippines with a
-            focus in front end development and design.
+            I'm a web developer from Philippines with a focus in front end
+            development and design.
           </p>
         </div>
         <div className="md:order-2 order-1">

@@ -1,4 +1,4 @@
-import { Redirect, Route, Router } from "react-router-dom";
+import { Route, Router } from "react-router-dom";
 
 import Footer from "./components/Footer";
 import { History } from "./helpers/History";
@@ -14,9 +14,8 @@ function App() {
         <Navbar />
         <Navmenu />
         <div className="pt-26">
-          <Route path="/home" component={Home} />
+          <Route path="/" component={Home} />
         </div>
-        <Redirect from="/" to="home" />
         <Footer />
       </Router>
     </div>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col items-center p-6">
       <div>contact@miko-aro.com</div>
-      <div class="copyright">© {getCurrentYear}</div>
+      <div>© {getCurrentYear}</div>
     </div>
   );
 };
