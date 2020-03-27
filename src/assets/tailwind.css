@@ -47,6 +47,11 @@ a {
   font-family: "Poppins", sans-serif !important;
 }
 
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
 button:focus {
   @apply outline-none;
 }
