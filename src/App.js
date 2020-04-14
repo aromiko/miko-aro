@@ -13,7 +13,7 @@ function App() {
       <Router history={History}>
         <Navbar />
         <Navmenu />
-        <div className="pt-26">
+        <div className="pt-24">
           <Route path="/" component={Home} />
         </div>
         <Footer />

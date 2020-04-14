@@ -6,11 +6,19 @@ import ProfilePicture from "../assets/images/face.jpg";
 import React from "react";
 import Sunset from "../assets/images/sunset.jpeg";
 import Venice from "../assets/images/venice.jpg";
+import Windmill from "../assets/images/windmill.jpg";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className="flex items-center flex-col md:flex-row p-6 justify-between">
+    <div className="px-6 lg:px-50">
+      <div className="text-3xl py-20 md:py-40">
+        I'm Miko, a front end developer with a focus on front end development,
+        user experience and design. Discover more about my life here.
+      </div>
+      <div>
+        <img src={Windmill} alt="profile" />
+      </div>
+      {/* <div className="flex items-center flex-col md:flex-row p-6 justify-between">
         <div className="md:order-1 order-2 text-center md:text-left md:pr-6">
           <h2 className="font-bold">Hi! I'm Miko</h2>
           <p className="pb-6">Web Developer</p>
@@ -26,7 +34,7 @@ const Home = () => {
             className="rounded-full w-50"
           />
         </div>
-      </div>
+      </div> */}
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 p-6">
           <img

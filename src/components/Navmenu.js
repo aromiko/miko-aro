@@ -5,15 +5,15 @@ import React from "react";
 import Twitter from "../assets/images/icons/twitter.svg";
 import { useSelector } from "react-redux";
 
-const openSocialMedia = url => {
+const openSocialMedia = (url) => {
   window.open(url, "_blank");
 };
 
 const Navmenu = () => {
-  const navbarToggle = useSelector(state => state.navbarToggle);
+  const navbarToggle = useSelector((state) => state.navbarToggle);
   return (
     <div
-      className={`flex flex-col md:flex-row items-center justify-between w-screen h-screen  bg-white fixed transition ease-in-out duration-500 p-20 lg:px-30 lg:py-0 z-40 ${
+      className={`flex flex-col sm:flex-row items-center justify-between w-screen h-screen bg-white fixed transition ease-in-out duration-500 p-20 lg:px-30 lg:py-0 z-40 ${
         navbarToggle === true ? "opacity-1" : "opacity-0 pointer-events-none"
       }`}
     >
