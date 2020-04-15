@@ -23,17 +23,8 @@ const Home = () => {
         <div className="text-lg lg:text-2xl text font-bold lg:w-1/3">
           Creating experiences that fuel work and life.
         </div>
-        <div className="text-base lg:text-xl text lg:w-2/3">
+        <div className="lg:w-2/3 lg:pl-6">
           <p className="text-base lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p className="pt-6 text-base lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -49,7 +40,7 @@ const Home = () => {
           <img src={Building} alt="building" className="w-full" />
         </div>
         <div>
-          <img src={Laptop} alt="building" className="w-full" />
+          <img src={Laptop} alt="laptop" className="w-full" />
         </div>
       </div>
       <div className="flex lg:flex-row flex-col lg:py-40 py-20">
@@ -58,15 +49,6 @@ const Home = () => {
         </div>
         <div className="text-base lg:text-xl text lg:w-2/3">
           <p className="text-base lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p className="pt-6 text-base lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
