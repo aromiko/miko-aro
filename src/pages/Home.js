@@ -1,22 +1,15 @@
-import Bonfire from "../assets/images/bonfire.jpg";
-import Crossing from "../assets/images/crossing2.jpg";
-import Daraitan from "../assets/images/daraitan.jpeg";
-import Port from "../assets/images/port.jpeg";
-import ProfilePicture from "../assets/images/face.jpg";
 import React from "react";
-import Sunset from "../assets/images/sunset.jpeg";
-import Venice from "../assets/images/venice.jpg";
 import Windmill from "../assets/images/windmill.jpg";
 
 const Home = () => {
   return (
     <div className="px-6 xl:px-60">
       <div className="flex flex-col">
-        <div className="text-3xl py-20 lg:py-40 lg:order-1 order-2">
+        <div className="text-center lg:text-left text-xl lg:text-3xl py-20 lg:py-40 lg:order-1 order-2">
           I'm Miko, a web developer with a focus on front end development, user
           experience and design. Discover more about my life here.
         </div>
-        <div className="lg:order-2 order-1 pt-20 lg:p-0">
+        <div className="lg:order-2 order-1 pt-20 lg:p-0 lg:pb-40">
           <img
             src={Windmill}
             alt="windmill"
