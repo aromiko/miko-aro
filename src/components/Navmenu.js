@@ -23,11 +23,7 @@ const Navmenu = () => {
           openSocialMedia("https://facebook.com/miko.aro");
         }}
       >
-        <img
-          src={Facebook}
-          alt="facebook"
-          className="h-16 lg:h-20 pointer-events-none"
-        />
+        <img src={Facebook} alt="facebook" className="h-16 lg:h-20" />
       </button>
       <button
         className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
@@ -35,11 +31,7 @@ const Navmenu = () => {
           openSocialMedia("https://www.instagram.com/mikoaro/");
         }}
       >
-        <img
-          src={Instagram}
-          alt="instagram"
-          className="h-16 lg:h-20 pointer-events-none"
-        />
+        <img src={Instagram} alt="instagram" className="h-16 lg:h-20" />
       </button>
       <button
         className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
@@ -47,11 +39,7 @@ const Navmenu = () => {
           openSocialMedia("https://twitter.com/aromiko");
         }}
       >
-        <img
-          src={Twitter}
-          alt="twitter"
-          className="h-16 lg:h-20 pointer-events-none"
-        />
+        <img src={Twitter} alt="twitter" className="h-16 lg:h-20" />
       </button>
       <button
         className="transition ease-in-out duration-500 rounded-full hover:bg-grayTransparent-500 p-10 select-none"
@@ -59,11 +47,7 @@ const Navmenu = () => {
           openSocialMedia("https://www.linkedin.com/in/mikoaro");
         }}
       >
-        <img
-          src={Linkedin}
-          alt="linkedin"
-          className="h-16 lg:h-20 pointer-events-none"
-        />
+        <img src={Linkedin} alt="linkedin" className="h-16 lg:h-20" />
       </button>
     </div>
   );

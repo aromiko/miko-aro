@@ -4,10 +4,6 @@
 
 @import "tailwindcss/utilities";
 
-html {
-  /* @apply bg-black text-white; */
-}
-
 h1,
 h2,
 h3,
@@ -58,4 +54,8 @@ button:focus {
 
 .container {
   @apply mx-auto;
+}
+
+img {
+  pointer-events: none;
 }

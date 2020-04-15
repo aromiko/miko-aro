@@ -16484,10 +16484,6 @@ video {
   transition-duration: 1000ms;
 }
 
-html {
-  /* @apply bg-black text-white; */
-}
-
 h1,
 h2,
 h3,
@@ -16545,6 +16541,10 @@ button:focus {
 .container {
   margin-left: auto;
   margin-right: auto;
+}
+
+img {
+  pointer-events: none;
 }
 
 @media (min-width: 425px) {
