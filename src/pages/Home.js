@@ -1,3 +1,5 @@
+import Building from "../assets/images/building.jpg";
+import Laptop from "../assets/images/laptop.jpg";
 import React from "react";
 import Windmill from "../assets/images/windmill.jpg";
 
@@ -9,7 +11,7 @@ const Home = () => {
           I'm Miko, a web developer with a focus on front end development, user
           experience and design. Discover more about my life here.
         </div>
-        <div className="lg:order-2 order-1 pt-20 lg:p-0 lg:pb-40">
+        <div className="lg:order-2 order-1 pt-20 lg:p-0">
           <img
             src={Windmill}
             alt="windmill"
@@ -17,50 +19,64 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Bonfire}
-            alt="bonfire"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+      <div className="flex lg:flex-row flex-col lg:py-40 py-20">
+        <div className="text-lg lg:text-2xl text font-bold lg:w-1/3">
+          Creating experiences that fuel work and life.
         </div>
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Crossing}
-            alt="crossing"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+        <div className="text-base lg:text-xl text lg:w-2/3">
+          <p className="text-base lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p className="pt-6 text-base lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Daraitan}
-            alt="daraitan"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+      </div>
+      <div className="flex flex-col lg:flex-row">
+        <div>
+          <img src={Building} alt="building" className="w-full" />
         </div>
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Port}
-            alt="port"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+        <div>
+          <img src={Laptop} alt="building" className="w-full" />
         </div>
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Sunset}
-            alt="sunset"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+      </div>
+      <div className="flex lg:flex-row flex-col lg:py-40 py-20">
+        <div className="text-lg lg:text-2xl text font-bold lg:w-1/3">
+          Technology with a soul.
         </div>
-        <div className="w-full lg:w-1/2 p-6">
-          <img
-            src={Venice}
-            alt="venice"
-            className="object-cover h-64 md:h-104 w-full"
-          />
+        <div className="text-base lg:text-xl text lg:w-2/3">
+          <p className="text-base lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p className="pt-6 text-base lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

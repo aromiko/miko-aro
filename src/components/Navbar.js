@@ -13,7 +13,7 @@ const Navbar = () => {
         className="flex items-center rounded-full font-bold p-3 transition ease-in-out duration-500 hover:bg-grayTransparent-500"
         onClick={() => dispatch(NavbarToggle(!navbarToggle))}
       >
-        <span className="material-icons">
+        <span className="material-icons pointer-events-none">
           {navbarToggle === true ? "close" : "menu"}
         </span>
       </button>
