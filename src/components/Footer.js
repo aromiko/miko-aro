@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <div
       className={`flex flex-col justify-center items-center fixed w-full p-6 z-50 transition-all ease-in-out duration-400 ${
-        footerToggle === false || navbarToggle
+        footerToggle === false || navbarToggle === true
           ? "-bottom-24 opacity-0"
           : "bottom-0 opacity-1"
       }`}
