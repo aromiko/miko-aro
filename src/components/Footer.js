@@ -10,7 +10,7 @@ const Footer = () => {
     window.addEventListener("scroll", function () {
       if (
         window.innerHeight + Math.round(window.scrollY) >=
-        document.body.offsetHeight
+        document.body.offsetHeight - 10
       ) {
         setFooterToggle(true);
       } else {
@@ -26,9 +26,9 @@ const Footer = () => {
   return (
     <div
       className={`flex flex-col justify-center items-center fixed w-full p-6 z-50 transition-all ease-in-out duration-400 ${
-        footerToggle === true || navbarToggle
-          ? "bottom-0 opacity-1"
-          : "-bottom-24 opacity-0"
+        footerToggle === false || navbarToggle
+          ? "-bottom-24 opacity-0"
+          : "bottom-0 opacity-1"
       }`}
     >
       <div>
